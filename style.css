@@ -44,7 +44,7 @@ nav ul li a {
     font-size: 20px;
 }
 
-.header {
+.col {
     width: 90%;
     color: #fff;
     top: 50%;
@@ -54,12 +54,38 @@ nav ul li a {
     text-align: center;
 }
 
-.header h1{
+.col h1{
     font-size: 65px;
+    display: flex;
+    height: 88%;
+    align-items: center left;
 }
 
-<!------ 1989 ------->
 
 .row {
-    background-color: blue;
+    display: flex;
+    height: 88%;
+    align-items: center;
+    flex-basis: 50%;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 15px 15px;
+    background-position: center;
+    background-size: cover;   
+}
+
+.card1{
+    background-image: url(images/1989.webp);
+}
+
+.card2 {
+    background-image: url(images/1989.webp);
 }
